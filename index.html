@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Grow your business with our innovative solutions. Get started today!">
+    <title>Business Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-gray-100">
+    <header class="bg-blue-600 text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4 fade-in">Grow Your Business with Us</h1>
+            <p class="text-lg md:text-xl mb-6 fade-in">Innovative solutions to boost your success. Start today!</p>
+            <a href="#cta" class="btn-primary bg-blue-700 text-white px-6 py-3 rounded-lg text-lg font-semibold">Get
+                Started</a>
+        </div>
+    </header>
+
+    <section id="cta" class="py-16 bg-blue-600 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4 fade-in">Ready to Transform Your Business?</h2>
+            <p class="text-lg mb-6 fade-in">Join thousands of businesses thriving with our solutions.</p>
+            <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+               
+                <div class="fade-in">
+                    <form id="signup-form" class="max-w-md mx-auto flex flex-col gap-4">
+                        <input type="email" placeholder="Enter your email"
+                            class="px-4 py-3 rounded-lg text-gray-800 flex-1" required>
+                        <input type="password" placeholder="Create a password"
+                            class="px-4 py-3 rounded-lg text-gray-800 flex-1" required>
+                        <button type="submit"
+                            class="btn-primary bg-blue-700 px-6 py-3 rounded-lg text-lg font-semibold">Sign Up</button>
+                    </form>
+                </div>
+                <div class="fade-in">
+                    <form id="login-form" class="max-w-md mx-auto flex flex-col gap-4">
+                        <input type="email" placeholder="Enter your email"
+                            class="px-4 py-3 rounded-lg text-gray-800 flex-1" required>
+                        <input type="password" placeholder="Enter your password"
+                            class="px-4 py-3 rounded-lg text-gray-800 flex-1" required>
+                        <button type="submit"
+                            class="btn-primary bg-blue-700 px-6 py-3 rounded-lg text-lg font-semibold">Log In</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <div class="flex justify-center gap-4">
+                <a href="#" class="hover:text-blue-400">Privacy Policy</a>
+                <a href="#" class="hover:text-blue-400">Terms of Service</a>
+                <a href="#" class="hover:text-blue-400">Contact Us</a>
+            </div>
+            <p class="mb-4">&copy; 2025 YourBusiness. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
